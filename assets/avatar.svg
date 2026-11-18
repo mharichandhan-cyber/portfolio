@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
+  <defs>
+    <!-- Gradients -->
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#122518"/>
+      <stop offset="70%" stop-color="#080B09"/>
+      <stop offset="100%" stop-color="#040605"/>
+    </radialGradient>
+    
+    <linearGradient id="neonGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#39FF14"/>
+      <stop offset="100%" stop-color="#00dd55"/>
+    </linearGradient>
+
+    <linearGradient id="cyberCyan" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f3ff"/>
+      <stop offset="100%" stop-color="#39FF14"/>
+    </linearGradient>
+
+    <!-- Filters -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="400" height="400" rx="30" fill="url(#bgGrad)"/>
+  <rect x="5" y="5" width="390" height="390" rx="25" stroke="#39FF14" stroke-width="1.5" stroke-opacity="0.3" stroke-dasharray="10 6"/>
+
+  <!-- Cyber Tech HUD Circles -->
+  <circle cx="200" cy="200" r="170" stroke="#39FF14" stroke-opacity="0.1" stroke-width="1"/>
+  <circle cx="200" cy="200" r="150" stroke="#39FF14" stroke-opacity="0.2" stroke-width="2" stroke-dasharray="12 18"/>
+  <circle cx="200" cy="200" r="130" stroke="#00f3ff" stroke-opacity="0.15" stroke-width="1" stroke-dasharray="4 8"/>
+
+  <!-- Outer HUD Tick Marks -->
+  <path d="M 200 15 L 200 35 M 200 365 L 200 385 M 15 200 L 35 200 M 365 200 L 385 200" stroke="#39FF14" stroke-opacity="0.5" stroke-width="2"/>
+  
+  <!-- Corner Tech Markers -->
+  <path d="M 30 50 L 30 30 L 50 30 M 350 30 L 370 30 L 370 50 M 370 350 L 370 370 L 350 370 M 50 370 L 30 370 L 30 350" stroke="#39FF14" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Hacker / Cyber Persona Silhouette -->
+  <!-- Shoulders / Cyber Hoodie -->
+  <path d="M 90 350 C 90 280 140 250 160 240 L 175 270 L 200 280 L 225 270 L 240 240 C 260 250 310 280 310 350 Z" 
+        fill="#0d1812" stroke="#39FF14" stroke-width="2" stroke-opacity="0.7"/>
+
+  <!-- Inner Chest Armor Lines -->
+  <path d="M 185 285 L 185 350 M 215 285 L 215 350 M 155 310 L 245 310" stroke="#39FF14" stroke-width="1" stroke-opacity="0.3"/>
+
+  <!-- Head / Hood Shape -->
+  <path d="M 140 230 C 130 170 150 110 200 100 C 250 110 270 170 260 230 C 250 255 225 268 200 270 C 175 268 150 255 140 230 Z" 
+        fill="#080e0a" stroke="url(#neonGreen)" stroke-width="2.5" filter="url(#glow)"/>
+
+  <!-- Cyber Visor / Neon Glasses Effect -->
+  <polygon points="160,180 240,180 232,202 168,202" fill="#000000" stroke="#00f3ff" stroke-width="2"/>
+  <line x1="162" y1="191" x2="238" y2="191" stroke="#39FF14" stroke-width="3" filter="url(#glow)"/>
+
+  <!-- HUD Data Elements & Code Floats -->
+  <text x="50" y="70" fill="#39FF14" font-family="monospace" font-size="11" opacity="0.8">// ID: HM-SEC</text>
+  <text x="50" y="86" fill="#00f3ff" font-family="monospace" font-size="10" opacity="0.6">AUTH: LEVEL-1</text>
+  
+  <text x="260" y="70" fill="#39FF14" font-family="monospace" font-size="10" opacity="0.8">SYSTEM: NORMAL</text>
+  <text x="260" y="86" fill="#39FF14" font-family="monospace" font-size="10" opacity="0.6">PORT: 443 [OPEN]</text>
+
+  <!-- Cyber Insignia / Monogram HM at Bottom Center -->
+  <rect x="160" y="325" width="80" height="26" rx="4" fill="#040605" stroke="#39FF14" stroke-width="1.5"/>
+  <text x="200" y="343" fill="#39FF14" font-family="monospace" font-weight="bold" font-size="13" text-anchor="middle" letter-spacing="3" filter="url(#softGlow)">H.M.</text>
+
+  <!-- Scanning line across center -->
+  <line x1="70" y1="210" x2="330" y2="210" stroke="#39FF14" stroke-width="1" stroke-opacity="0.3" stroke-dasharray="6 4"/>
+</svg>
+
