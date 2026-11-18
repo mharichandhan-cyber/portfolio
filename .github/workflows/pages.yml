@@ -1,6 +1,7 @@
 name: Deploy portfolio to GitHub Pages
 
 on:
+  # Pages is enabled for GitHub Actions in repository settings.
   push:
     branches: [main]
   workflow_dispatch:
