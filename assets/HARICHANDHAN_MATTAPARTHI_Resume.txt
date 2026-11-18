@@ -1,0 +1,69 @@
+========================================================================
+                      HARICHANDHAN MATTAPARTHI
+           B.Tech Student | Cybersecurity Enthusiast
+========================================================================
+
+CONTACT INFORMATION
+-------------------
+• Full Name: Harichandhan Mattaparthi
+• Email: mharichandhan@gmail.com
+• GitHub: https://github.com/mharichandhan-cyber
+• LinkedIn: https://www.linkedin.com/in/harichandhan-mattaparthi-3215373b6/
+• Instagram: https://www.instagram.com/_hxri.chxndhxn_/
+• Location: Hyderabad, Telangana, India
+
+HEADLINE & MOTTO
+----------------
+"Exploring Cybersecurity. Building the Future."
+
+ABOUT ME
+--------
+Curious about ethical hacking, Linux, programming and digital security. 
+Focused on mastering computing architecture, algorithmic logic, and secure 
+programming fundamentals as a first-year undergraduate.
+
+ACADEMIC CREDENTIALS
+--------------------
+• Degree: Bachelor of Technology (B.Tech) in Cybersecurity
+• Academic Year: 1st Year (Undergraduate, Class of 2029)
+• Institution: DRK Institute of Science and Technology
+• Location: Hyderabad, Telangana, India
+
+TECHNICAL ARSENAL (ACTIVE LEARNING TARGETS)
+-------------------------------------------
+1. Python:
+   - Scripting, CLI utilities, automation workflows
+   - Basic networking and socket programming fundamentals
+   - Data structures and algorithms in Python
+
+2. C++:
+   - Object-Oriented Programming (OOP) fundamentals
+   - Memory management, pointers, and memory layout basics
+   - Algorithmic problem solving and logic building
+
+3. Linux & Unix Systems:
+   - Terminal navigation, Bash shell commands
+   - Linux file system hierarchy and permissions (chmod, chown)
+   - Process monitoring and system utilities (Ubuntu, Kali Linux)
+
+4. Git & GitHub:
+   - Distributed version control workflows
+   - Repository creation, branching, committing, and remote tracking
+   - Open source exploration
+
+PROJECTS & LAB ROADMAP (IN DEVELOPMENT)
+---------------------------------------
+• Project 01: Network Port Scanner & Banner Grabber (Python 3 Socket API)
+• Project 02: Linux System Hardening & Audit Script (Bash CLI Automation)
+• Project 03: C++ Cryptographic Hash & Classical Cipher Utility (C++)
+
+TRANSPARENCY NOTE
+-----------------
+This resume reflects current 1st-year student coursework and self-directed 
+study at DRK Institute of Science and Technology. All technical proficiencies 
+are active learning targets.
+
+========================================================================
+[Verified Academic Profile Dossier — Harichandhan Mattaparthi]
+========================================================================
+
