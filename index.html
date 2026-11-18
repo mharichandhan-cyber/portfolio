@@ -1,0 +1,1182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HARICHANDHAN MATTAPARTHI | Cybersecurity Enthusiast & B.Tech Student</title>
+  
+  <!-- SEO & Metadata -->
+  <meta name="description" content="Personal portfolio of Harichandhan Mattaparthi — B.Tech 1st Year Cybersecurity student at DRK Institute of Science and Technology, Hyderabad. Exploring ethical hacking, Linux, and digital security.">
+  <meta name="keywords" content="Harichandhan Mattaparthi, Cybersecurity, Ethical Hacking, Linux, Python, C++, DRK Institute, Hyderabad, Portfolio">
+  <meta name="author" content="Harichandhan Mattaparthi">
+  <meta name="theme-color" content="#080B09">
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="HARICHANDHAN MATTAPARTHI | Cybersecurity Portfolio">
+  <meta property="og:description" content="Exploring Cybersecurity. Building the Future. B.Tech Cybersecurity student portfolio.">
+  <meta property="og:image" content="assets/avatar.svg">
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="HARICHANDHAN MATTAPARTHI | Cybersecurity Portfolio">
+  <meta property="twitter:description" content="Exploring Cybersecurity. Building the Future. B.Tech Cybersecurity student portfolio.">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+  <!-- Google Fonts: JetBrains Mono & Space Grotesk -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;0,400;0,600;0,700;0,800;1,400&family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons for authentic tech and social badges -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="cyber-theme">
+
+  <!-- Preloader / Cyber Boot Sequence -->
+  <div id="preloader" class="preloader" aria-label="Loading security portfolio" role="status">
+    <div class="preloader-terminal">
+      <div class="preloader-header">
+        <span class="p-dot red"></span>
+        <span class="p-dot yellow"></span>
+        <span class="p-dot green"></span>
+        <span class="p-title">SEC_KERNEL_BOOT.sh</span>
+      </div>
+      <div class="preloader-body" id="preloader-log">
+        <div class="p-line"><span class="neon-text">[INIT]</span> Initializing cyber defense environment...</div>
+        <div class="p-line"><span class="neon-text">[KERNEL]</span> Loading Harichandhan Mattaparthi security node...</div>
+        <div class="p-line"><span class="neon-text">[NETWORK]</span> Node: DRKIST // Hyderabad [HYD_IN]...</div>
+        <div class="p-line"><span class="neon-text">[AUTH]</span> Level 1 Guest Session: GRANTED.</div>
+      </div>
+      <div class="preloader-bar">
+        <div class="preloader-fill" id="preloader-bar-fill"></div>
+      </div>
+      <button id="skip-boot-btn" class="skip-boot" type="button">Press to Skip [ESC]</button>
+    </div>
+  </div>
+
+  <!-- Background Canvas for Subtle Matrix / Cyber Particle Animation -->
+  <canvas id="cyber-bg" class="cyber-bg" aria-hidden="true"></canvas>
+
+  <!-- CRT Scanline Overlay -->
+  <div class="crt-overlay" aria-hidden="true"></div>
+
+  <!-- Live System Telemetry / Header Ticker -->
+  <div class="telemetry-bar">
+    <div class="telemetry-container">
+      <span class="telemetry-item"><span class="pulse-dot"></span> <strong>SYSTEM:</strong> ONLINE</span>
+      <span class="telemetry-sep">|</span>
+      <span class="telemetry-item"><strong>OPERATOR:</strong> HARICHANDHAN M.</span>
+      <span class="telemetry-sep">|</span>
+      <span class="telemetry-item"><strong>ROLE:</strong> B.TECH CYBERSECURITY (1ST YEAR)</span>
+      <span class="telemetry-sep">|</span>
+      <span class="telemetry-item"><strong>LOCATION:</strong> HYDERABAD, INDIA</span>
+      <span class="telemetry-sep">|</span>
+      <span class="telemetry-item"><i class="fa-solid fa-shield-halved"></i> <strong>DEFCON:</strong> 5 (MONITORING)</span>
+    </div>
+  </div>
+
+  <!-- Main Navigation Header -->
+  <header class="main-header" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="cyber-logo" aria-label="Harichandhan Mattaparthi Home">
+        <span class="logo-bracket">[</span>
+        <span class="logo-symbol">&gt;_</span>
+        <span class="logo-name">HARICHANDHAN</span>
+        <span class="logo-ext">.sec</span>
+        <span class="logo-bracket">]</span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" id="nav-menu" aria-label="Primary Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#about" class="nav-link"><span class="nav-num">01.</span> About</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link"><span class="nav-num">02.</span> Skills</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link"><span class="nav-num">03.</span> Projects</a></li>
+          <li class="nav-item"><a href="#journey" class="nav-link"><span class="nav-num">04.</span> Journey</a></li>
+          <li class="nav-item"><a href="#terminal-section" class="nav-link"><span class="nav-num">05.</span> Terminal</a></li>
+          <li class="nav-item"><a href="#resume" class="nav-link"><span class="nav-num">06.</span> Resume</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link"><span class="nav-num">07.</span> Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Action Utilities: Terminal Trigger & Mobile Toggle -->
+      <div class="nav-actions">
+        <a href="#terminal-section" class="btn-terminal-quick" title="Jump to Interactive CLI Terminal">
+          <i class="fa-solid fa-terminal"></i>
+          <span class="btn-text">CLI</span>
+        </a>
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    
+    <!-- Hero Section -->
+    <section id="home" class="section hero-section">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <!-- Terminal Status Pill -->
+          <div class="hero-badge">
+            <span class="badge-icon"><i class="fa-solid fa-satellite-dish"></i></span>
+            <span class="badge-text">STATUS: ACTIVE // 1ST YEAR B.TECH UNDERGRAD</span>
+          </div>
+
+          <!-- Prompt Breadcrumb -->
+          <div class="terminal-prompt-line">
+            <span class="prompt-user">harichandhan@sec-station</span>:<span class="prompt-path">~</span>$ <span class="prompt-cmd">whoami --verbose</span>
+          </div>
+
+          <!-- Full Name -->
+          <h1 class="hero-name glitch-hover" data-text="HARICHANDHAN MATTAPARTHI">
+            HARICHANDHAN MATTAPARTHI
+          </h1>
+
+          <!-- Professional Title -->
+          <div class="hero-title-wrap">
+            <p class="hero-subtitle">B.Tech Student <span class="divider">|</span> Cybersecurity Enthusiast</p>
+          </div>
+
+          <!-- Dynamic Typing Headline -->
+          <div class="hero-headline-wrap">
+            <h2 class="hero-headline">
+              <span class="headline-fixed">&gt; </span>
+              <span id="typed-headline" class="typed-text">Exploring Cybersecurity. Building the Future.</span>
+              <span class="cursor" aria-hidden="true">_</span>
+            </h2>
+          </div>
+
+          <!-- Personal Introduction -->
+          <p class="hero-description">
+            B.Tech 1st Year Cybersecurity student at <strong>DRK Institute of Science and Technology, Hyderabad</strong>. 
+            Deeply curious about <em>ethical hacking</em>, <em>Linux operating systems</em>, <em>low-level programming</em>, and <em>digital defense mechanisms</em>. 
+            Focusing on rock-solid fundamentals to safeguard the digital frontier.
+          </p>
+
+          <!-- Call to Action Buttons -->
+          <div class="hero-cta-group">
+            <a href="#projects" class="cyber-btn cyber-btn-primary">
+              <span class="btn-bg"></span>
+              <span class="btn-content">
+                <i class="fa-solid fa-code-fork"></i> Explore My Work
+              </span>
+            </a>
+            <a href="#contact" class="cyber-btn cyber-btn-secondary">
+              <span class="btn-bg"></span>
+              <span class="btn-content">
+                <i class="fa-solid fa-envelope"></i> Contact Me
+              </span>
+            </a>
+            <a href="#terminal-section" class="cyber-btn cyber-btn-outline">
+              <span class="btn-bg"></span>
+              <span class="btn-content">
+                <i class="fa-solid fa-terminal"></i> Interactive Shell
+              </span>
+            </a>
+          </div>
+
+          <!-- Social Quick Links -->
+          <div class="hero-socials">
+            <span class="socials-label">// SECURE CHANNELS:</span>
+            <div class="social-icons">
+              <a href="https://github.com/mharichandhan-cyber" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile" class="social-link" title="GitHub: mharichandhan-cyber">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/harichandhan-mattaparthi-3215373b6/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile" class="social-link" title="LinkedIn Profile">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a href="mailto:mharichandhan@gmail.com" aria-label="Send Email" class="social-link" title="Email: mharichandhan@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+              </a>
+              <a href="https://www.instagram.com/_hxri.chxndhxn_/" target="_blank" rel="noopener noreferrer" aria-label="Instagram Profile" class="social-link" title="Instagram: _hxri.chxndhxn_">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Profile Photograph & Cyber Visual Card -->
+        <div class="hero-visual">
+          <div class="cyber-avatar-card">
+            <!-- HUD decorative corner markers -->
+            <div class="card-corner corner-tl"></div>
+            <div class="card-corner corner-tr"></div>
+            <div class="card-corner corner-bl"></div>
+            <div class="card-corner corner-br"></div>
+            
+            <div class="avatar-hud-top">
+              <span class="hud-tag"><i class="fa-solid fa-shield"></i> PROFILE_IMG // HARICHANDHAN</span>
+              <span class="hud-status"><span class="pulse-dot"></span> VERIFIED</span>
+            </div>
+
+            <!-- Profile Image Container with fallback -->
+            <div class="avatar-frame">
+              <div class="scanline-glow"></div>
+              <img 
+                src="assets/avatar.svg" 
+                alt="Harichandhan Mattaparthi - Cybersecurity Enthusiast Avatar" 
+                class="avatar-img"
+                id="profile-img"
+                width="340" 
+                height="340"
+              >
+              <div class="avatar-watermark">HM-SEC // 2026</div>
+            </div>
+
+            <div class="avatar-hud-bottom">
+              <div class="hud-stat">
+                <span class="stat-lbl">ACADEMIC</span>
+                <span class="stat-val">B.Tech 1st Year</span>
+              </div>
+              <div class="hud-stat">
+                <span class="stat-lbl">SPECIALIZATION</span>
+                <span class="stat-val">Cybersecurity</span>
+              </div>
+              <div class="hud-stat">
+                <span class="stat-lbl">BASE</span>
+                <span class="stat-val">Hyderabad, IN</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="section about-section">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header">
+          <div class="section-tag">// 01. SYSTEM IDENTITY</div>
+          <h2 class="section-title">About Me</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="about-grid">
+          <!-- Text Dossier Column -->
+          <div class="about-dossier">
+            <div class="terminal-card">
+              <div class="terminal-header">
+                <span class="t-btn close"></span>
+                <span class="t-btn minimize"></span>
+                <span class="t-btn maximize"></span>
+                <span class="t-title">dossier_harichandhan.txt</span>
+              </div>
+              <div class="terminal-content">
+                <p class="highlight-lead">
+                  "Curious about ethical hacking, Linux, programming and digital security."
+                </p>
+                <p>
+                  I am a passionate <strong>1st Year B.Tech student</strong> specializing in 
+                  <strong>Cybersecurity</strong> at <strong>DRK Institute of Science and Technology</strong> in 
+                  <strong>Hyderabad, India</strong>.
+                </p>
+                <p>
+                  My journey into computer security stems from a fundamental curiosity about how software, 
+                  networks, and digital infrastructures actually function behind the interface—and how to defend them 
+                  against malicious exploitation.
+                </p>
+                <p>
+                  Rather than jumping ahead to complex offensive exploits without grounding, I am actively focusing on 
+                  <strong>strong computational fundamentals</strong>: writing algorithmic logic in C++, scripting utilities 
+                  in Python, navigating Unix/Linux environments via the command line, and maintaining clean codebases with Git.
+                </p>
+
+                <!-- Quick Data Key-Value Table -->
+                <div class="cyber-data-table">
+                  <div class="data-row">
+                    <span class="data-key"><i class="fa-solid fa-user-graduate"></i> Degree</span>
+                    <span class="data-val">B.Tech in Cybersecurity (1st Year)</span>
+                  </div>
+                  <div class="data-row">
+                    <span class="data-key"><i class="fa-solid fa-building-columns"></i> Institution</span>
+                    <span class="data-val">DRK Institute of Science and Technology</span>
+                  </div>
+                  <div class="data-row">
+                    <span class="data-key"><i class="fa-solid fa-location-dot"></i> Location</span>
+                    <span class="data-val">Hyderabad, Telangana, India</span>
+                  </div>
+                  <div class="data-row">
+                    <span class="data-key"><i class="fa-solid fa-crosshairs"></i> Core Focus</span>
+                    <span class="data-val">Ethical Hacking, Linux, Digital Security &amp; Programming</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Feature Cards / Mindset Grid -->
+          <div class="about-pillars">
+            <div class="cyber-card pillar-card">
+              <div class="pillar-icon"><i class="fa-brands fa-linux"></i></div>
+              <div class="pillar-content">
+                <h3 class="pillar-title">Linux &amp; CLI Immersion</h3>
+                <p class="pillar-desc">
+                  Building deep familiarity with the Unix philosophy, shell navigation, directory structures, and process management.
+                </p>
+              </div>
+            </div>
+
+            <div class="cyber-card pillar-card">
+              <div class="pillar-icon"><i class="fa-solid fa-shield-virus"></i></div>
+              <div class="pillar-content">
+                <h3 class="pillar-title">Ethical Hacking Exploration</h3>
+                <p class="pillar-desc">
+                  Studying cyber threats, reconnaissance methodologies, and defensive security frameworks with a strong ethical mindset.
+                </p>
+              </div>
+            </div>
+
+            <div class="cyber-card pillar-card">
+              <div class="pillar-icon"><i class="fa-solid fa-code"></i></div>
+              <div class="pillar-content">
+                <h3 class="pillar-title">Programming Foundations</h3>
+                <p class="pillar-desc">
+                  Developing computational problem-solving and algorithmic logic through Python and C++ daily practice.
+                </p>
+              </div>
+            </div>
+
+            <div class="cyber-card pillar-card">
+              <div class="pillar-icon"><i class="fa-solid fa-network-wired"></i></div>
+              <div class="pillar-content">
+                <h3 class="pillar-title">Security Mindset</h3>
+                <p class="pillar-desc">
+                  Learning how packets travel, protocols interact, and where vulnerabilities emerge across connected systems.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical Skills Section -->
+    <section id="skills" class="section skills-section">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header">
+          <div class="section-tag">// 02. TECHNICAL ARSENAL</div>
+          <h2 class="section-title">Skills &amp; Competencies</h2>
+          <p class="section-subtitle">
+            Currently learning and actively expanding these core technical skills as a 1st year cybersecurity undergraduate.
+          </p>
+          <div class="section-line"></div>
+        </div>
+
+        <!-- Skills Grid: Python, C++, Linux, Git & GitHub -->
+        <div class="skills-grid">
+          
+          <!-- Skill 1: Python -->
+          <div class="skill-card cyber-card">
+            <div class="skill-header">
+              <div class="skill-icon-wrap python-color">
+                <i class="fa-brands fa-python"></i>
+              </div>
+              <div class="skill-badge status-learning">
+                <span class="badge-dot"></span> Learning in Progress
+              </div>
+            </div>
+            <h3 class="skill-name">Python</h3>
+            <p class="skill-desc">
+              Focusing on programming fundamentals, scripting, automation, data handling, and beginner security scripts.
+            </p>
+            <div class="skill-topics">
+              <span class="topic-tag">Syntax &amp; Control Flow</span>
+              <span class="topic-tag">Automation Scripts</span>
+              <span class="topic-tag">File I/O</span>
+              <span class="topic-tag">Socket Basics</span>
+            </div>
+            <div class="skill-cli-preview">
+              <code>$ python3 -c "import socket; print('Ready')"</code>
+            </div>
+          </div>
+
+          <!-- Skill 2: C++ -->
+          <div class="skill-card cyber-card">
+            <div class="skill-header">
+              <div class="skill-icon-wrap cpp-color">
+                <i class="fa-solid fa-code"></i>
+              </div>
+              <div class="skill-badge status-learning">
+                <span class="badge-dot"></span> Learning in Progress
+              </div>
+            </div>
+            <h3 class="skill-name">C++</h3>
+            <p class="skill-desc">
+              Learning low-level memory concepts, Object-Oriented Programming (OOP), pointers, and core algorithmic problem solving.
+            </p>
+            <div class="skill-topics">
+              <span class="topic-tag">Data Structures</span>
+              <span class="topic-tag">Pointers &amp; Memory</span>
+              <span class="topic-tag">OOP Concepts</span>
+              <span class="topic-tag">Logic Building</span>
+            </div>
+            <div class="skill-cli-preview">
+              <code>$ g++ -Wall -std=c++17 main.cpp -o app</code>
+            </div>
+          </div>
+
+          <!-- Skill 3: Linux -->
+          <div class="skill-card cyber-card">
+            <div class="skill-header">
+              <div class="skill-icon-wrap linux-color">
+                <i class="fa-brands fa-linux"></i>
+              </div>
+              <div class="skill-badge status-learning">
+                <span class="badge-dot"></span> Learning in Progress
+              </div>
+            </div>
+            <h3 class="skill-name">Linux</h3>
+            <p class="skill-desc">
+              Navigating terminal environments, file system hierarchy, access permissions, process monitoring, and shell commands.
+            </p>
+            <div class="skill-topics">
+              <span class="topic-tag">Bash Navigation</span>
+              <span class="topic-tag">File Permissions (chmod)</span>
+              <span class="topic-tag">Process Management</span>
+              <span class="topic-tag">Ubuntu / Kali Basics</span>
+            </div>
+            <div class="skill-cli-preview">
+              <code>$ uname -r &amp;&amp; ps aux | grep secure</code>
+            </div>
+          </div>
+
+          <!-- Skill 4: Git & GitHub -->
+          <div class="skill-card cyber-card">
+            <div class="skill-header">
+              <div class="skill-icon-wrap git-color">
+                <i class="fa-brands fa-git-alt"></i>
+              </div>
+              <div class="skill-badge status-learning">
+                <span class="badge-dot"></span> Learning in Progress
+              </div>
+            </div>
+            <h3 class="skill-name">Git &amp; GitHub</h3>
+            <p class="skill-desc">
+              Practicing version control, committing clean code, managing repositories, branching, and open-source collaboration workflows.
+            </p>
+            <div class="skill-topics">
+              <span class="topic-tag">Version Control</span>
+              <span class="topic-tag">Repository Hosting</span>
+              <span class="topic-tag">Commit Workflows</span>
+              <span class="topic-tag">Branching Basics</span>
+            </div>
+            <div class="skill-cli-preview">
+              <code>$ git push origin feature/cyber-init</code>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Transparency Note -->
+        <div class="skills-disclaimer">
+          <i class="fa-solid fa-circle-info"></i>
+          <span>
+            <strong>Transparency Pledge:</strong> As a 1st year student, all skills above represent active learning targets 
+            and hands-on exploration rather than commercial production claims.
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section (Coming Soon Architecture) -->
+    <section id="projects" class="section projects-section">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header">
+          <div class="section-tag">// 03. LABS &amp; REPOSITORIES</div>
+          <h2 class="section-title">Projects Pipeline</h2>
+          <p class="section-subtitle">
+            Currently in development. As I master Python, C++, and Linux, my projects will be uploaded and documented here.
+          </p>
+          <div class="section-line"></div>
+        </div>
+
+        <!-- Featured Pipeline Cards -->
+        <div class="projects-pipeline-grid">
+          
+          <!-- Upcoming Project 1 -->
+          <div class="pipeline-card cyber-card">
+            <div class="pipeline-status">
+              <span class="status-indicator in-dev"></span> IN RESEARCH &amp; DESIGN
+            </div>
+            <div class="pipeline-badge-tag">TARGET 01</div>
+            <h3 class="pipeline-title">Network Port Scanner &amp; Banner Grabber</h3>
+            <p class="pipeline-desc">
+              A lightweight Python-based command line utility to scan designated IP addresses for open TCP/UDP ports, 
+              service banners, and basic network discovery.
+            </p>
+            <div class="pipeline-stack">
+              <span>Python 3</span>
+              <span>Socket API</span>
+              <span>Threading</span>
+            </div>
+            <div class="pipeline-footer">
+              <span class="code-status"><i class="fa-solid fa-spinner fa-spin"></i> Initializing repo...</span>
+              <a href="https://github.com/mharichandhan-cyber" target="_blank" rel="noopener noreferrer" class="link-repo" title="View GitHub profile">
+                GitHub <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Upcoming Project 2 -->
+          <div class="pipeline-card cyber-card">
+            <div class="pipeline-status">
+              <span class="status-indicator in-dev"></span> CONCEPT PHASE
+            </div>
+            <div class="pipeline-badge-tag">TARGET 02</div>
+            <h3 class="pipeline-title">Linux System Hardening &amp; Audit Script</h3>
+            <p class="pipeline-desc">
+              An automated Bash script to audit Ubuntu/Debian machines for common configuration flaws: open root SSH, 
+              insecure file permissions, unneeded background services, and outdated packages.
+            </p>
+            <div class="pipeline-stack">
+              <span>Bash</span>
+              <span>Linux CLI</span>
+              <span>System Security</span>
+            </div>
+            <div class="pipeline-footer">
+              <span class="code-status"><i class="fa-solid fa-code"></i> Scripting roadmap</span>
+              <a href="https://github.com/mharichandhan-cyber" target="_blank" rel="noopener noreferrer" class="link-repo" title="View GitHub profile">
+                GitHub <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Upcoming Project 3 -->
+          <div class="pipeline-card cyber-card">
+            <div class="pipeline-status">
+              <span class="status-indicator in-dev"></span> CONCEPT PHASE
+            </div>
+            <div class="pipeline-badge-tag">TARGET 03</div>
+            <h3 class="pipeline-title">C++ Cryptographic Hash &amp; Cipher Tool</h3>
+            <p class="pipeline-desc">
+              A console application written in C++ demonstrating classical encryption ciphers (Caesar, Vigenère) 
+              and hashing algorithms to understand mathematical foundations of cryptography.
+            </p>
+            <div class="pipeline-stack">
+              <span>C++</span>
+              <span>Cryptography Basics</span>
+              <span>Data Structures</span>
+            </div>
+            <div class="pipeline-footer">
+              <span class="code-status"><i class="fa-solid fa-lock"></i> Architecture design</span>
+              <a href="https://github.com/mharichandhan-cyber" target="_blank" rel="noopener noreferrer" class="link-repo" title="View GitHub profile">
+                GitHub <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Attractive Coming Soon Hub -->
+        <div class="coming-soon-banner cyber-card">
+          <div class="cs-icon"><i class="fa-solid fa-microchip fa-fade"></i></div>
+          <div class="cs-content">
+            <h3 class="cs-title">First Release Coming Soon</h3>
+            <p class="cs-text">
+              I believe in sharing genuine, well-tested code rather than uploading trivial placeholder projects. 
+              Keep an eye on my GitHub profile where the first public repositories will be pushed!
+            </p>
+            <div class="cs-actions">
+              <a href="https://github.com/mharichandhan-cyber" target="_blank" rel="noopener noreferrer" class="cyber-btn cyber-btn-primary">
+                <span class="btn-bg"></span>
+                <span class="btn-content">
+                  <i class="fa-brands fa-github"></i> Star &amp; Follow on GitHub
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- My Journey & Milestones Section -->
+    <section id="journey" class="section journey-section">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header">
+          <div class="section-tag">// 04. TRAJECTORY</div>
+          <h2 class="section-title">My Journey &amp; Milestones</h2>
+          <p class="section-subtitle">
+            My roadmap from 1st year engineering student to a cybersecurity defender and practitioner.
+          </p>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="timeline">
+
+          <!-- Milestone 1 (Current) -->
+          <div class="timeline-item active">
+            <div class="timeline-marker">
+              <div class="marker-dot"></div>
+              <div class="marker-pulse"></div>
+            </div>
+            <div class="timeline-card cyber-card">
+              <div class="timeline-meta">
+                <span class="timeline-badge current"><i class="fa-solid fa-bolt"></i> CURRENT PHASE</span>
+                <span class="timeline-time">Year 1 • 2026</span>
+              </div>
+              <h3 class="timeline-title">Foundations of Cybersecurity &amp; Engineering</h3>
+              <div class="timeline-sub">DRK Institute of Science and Technology, Hyderabad</div>
+              <p class="timeline-desc">
+                Admitted into B.Tech in Cybersecurity. Currently mastering core computing architecture, logic building with C++, 
+                Python automation, Linux terminal navigation, and digital logic design.
+              </p>
+              <div class="timeline-tags">
+                <span>C++ Logic</span>
+                <span>Python</span>
+                <span>Linux CLI</span>
+                <span>Hardware Architectures</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Milestone 2 (Upcoming) -->
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <div class="marker-dot"></div>
+            </div>
+            <div class="timeline-card cyber-card">
+              <div class="timeline-meta">
+                <span class="timeline-badge upcoming"><i class="fa-regular fa-clock"></i> UPCOMING</span>
+                <span class="timeline-time">Year 2</span>
+              </div>
+              <h3 class="timeline-title">Computer Networking &amp; Security Protocols</h3>
+              <div class="timeline-sub">Deep Dive into Protocols &amp; Packets</div>
+              <p class="timeline-desc">
+                Comprehensive study of TCP/IP, the OSI model, DNS, subnetting, network packet inspection using Wireshark, 
+                and operating system memory protections.
+              </p>
+              <div class="timeline-tags">
+                <span>TCP/IP &amp; OSI</span>
+                <span>Wireshark</span>
+                <span>Socket Programming</span>
+                <span>Firewalls</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Milestone 3 (Upcoming) -->
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <div class="marker-dot"></div>
+            </div>
+            <div class="timeline-card cyber-card">
+              <div class="timeline-meta">
+                <span class="timeline-badge upcoming"><i class="fa-regular fa-clock"></i> UPCOMING</span>
+                <span class="timeline-time">Year 3</span>
+              </div>
+              <h3 class="timeline-title">Ethical Hacking Labs &amp; CTF Competitions</h3>
+              <div class="timeline-sub">Practical Application &amp; Red/Blue Teaming</div>
+              <p class="timeline-desc">
+                Engaging in structured Capture The Flag (CTF) challenges on platforms like TryHackMe and Hack The Box. 
+                Building defensive scripts, setting up home virtual labs, and understanding vulnerability analysis.
+              </p>
+              <div class="timeline-tags">
+                <span>TryHackMe</span>
+                <span>Web App Security (OWASP)</span>
+                <span>Virtual Labs</span>
+                <span>CTF Challenges</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Milestone 4 (Target) -->
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <div class="marker-dot"></div>
+            </div>
+            <div class="timeline-card cyber-card">
+              <div class="timeline-meta">
+                <span class="timeline-badge goal"><i class="fa-solid fa-flag-checkered"></i> TARGET MILESTONE</span>
+                <span class="timeline-time">Year 4 &amp; Beyond</span>
+              </div>
+              <h3 class="timeline-title">Cybersecurity Defense Practitioner &amp; Career Launch</h3>
+              <div class="timeline-sub">Professional Industry Contribution</div>
+              <p class="timeline-desc">
+                Contributing to open-source security tools, pursuing industry certifications (e.g., Security+ / CEH), 
+                and stepping into a career securing critical digital infrastructures.
+              </p>
+              <div class="timeline-tags">
+                <span>SOC Analyst / PenTester</span>
+                <span>Security Research</span>
+                <span>Open Source Security</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Hacker Terminal Section -->
+    <section id="terminal-section" class="section terminal-section">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header">
+          <div class="section-tag">// 05. INTERACTIVE CLI</div>
+          <h2 class="section-title">Interactive Hacker Terminal</h2>
+          <p class="section-subtitle">
+            An authentic Linux-inspired terminal emulator. Type commands to explore my profile directly from your keyboard.
+          </p>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="terminal-wrapper cyber-card">
+          <!-- Terminal Title Bar -->
+          <div class="terminal-bar">
+            <div class="terminal-controls">
+              <span class="control-btn close"></span>
+              <span class="control-btn min"></span>
+              <span class="control-btn max"></span>
+            </div>
+            <div class="terminal-tab-title">
+              <i class="fa-solid fa-terminal"></i> guest@harichandhan-portfolio:~ (bash)
+            </div>
+            <div class="terminal-quick-actions">
+              <button class="t-action-btn" id="term-clear-btn" title="Clear terminal">clear</button>
+              <button class="t-action-btn" id="term-help-btn" title="Show help commands">help</button>
+            </div>
+          </div>
+
+          <!-- Terminal Output Screen -->
+          <div class="terminal-screen" id="terminal-screen">
+            <div class="term-banner">
+<pre class="ascii-art">
+  _    _          _____  _____ _____ _    _          _   _ _____  _    _          _   _ 
+ | |  | |   /\   |  __ \|_   _/ ____| |  | |   /\   | \ | |  __ \| |  | |   /\   | \ | |
+ | |__| |  /  \  | |__) | | || |    | |__| |  /  \  |  \| | |  | | |__| |  /  \  |  \| |
+ |  __  | / /\ \ |  _  /  | || |    |  __  | / /\ \ | . ` | |  | |  __  | / /\ \ | . ` |
+ | |  | |/ ____ \| | \ \ _| || |____| |  | |/ ____ \| |\  | |__| | |  | |/ ____ \| |\  |
+ |_|  |_/_/    \_\_|  \_\_____\_____|_|  |_/_/    \_\_| \_|_____/|_|  |_/_/    \_\_| \_|
+                                                                                          
+       [ HARICHANDHAN MATTAPARTHI // B.TECH CYBERSECURITY UNDERGRADUATE // HYD, IN ]
+</pre>
+            </div>
+            <div class="term-welcome">
+              <p>Type <span class="term-highlight">help</span> to view all available commands or click suggested pills below.</p>
+              <div class="term-suggestions">
+                <button class="cmd-pill" data-cmd="whoami">whoami</button>
+                <button class="cmd-pill" data-cmd="about">about</button>
+                <button class="cmd-pill" data-cmd="skills">skills</button>
+                <button class="cmd-pill" data-cmd="projects">projects</button>
+                <button class="cmd-pill" data-cmd="contact">contact</button>
+                <button class="cmd-pill" data-cmd="matrix">matrix</button>
+                <button class="cmd-pill" data-cmd="clear">clear</button>
+              </div>
+            </div>
+            <!-- Output entries get prepended/appended here -->
+            <div id="terminal-history"></div>
+          </div>
+
+          <!-- Terminal Command Input Line -->
+          <form class="terminal-input-row" id="terminal-form" autocomplete="off">
+            <span class="term-prompt">
+              <span class="user">guest</span>@<span class="host">harichandhan</span>:<span class="path">~</span>$
+            </span>
+            <input 
+              type="text" 
+              id="terminal-input" 
+              class="terminal-input" 
+              spellcheck="false" 
+              autocapitalize="off" 
+              autocomplete="off" 
+              placeholder="Type 'help' or command..."
+              aria-label="Terminal command input"
+            >
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="section resume-section">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header">
+          <div class="section-tag">// 06. PROFILE DOSSIER</div>
+          <h2 class="section-title">Curriculum Vitae</h2>
+          <p class="section-subtitle">
+            Academic profile and credentials dossier. Currently formatted for B.Tech 1st year coursework.
+          </p>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="resume-card-wrap">
+          <div class="cyber-card resume-card">
+            <div class="resume-left">
+              <div class="resume-badge">
+                <i class="fa-solid fa-file-code"></i> RESUME // 1ST YEAR EDITION
+              </div>
+              <h3 class="resume-name">HARICHANDHAN MATTAPARTHI</h3>
+              <p class="resume-title-sub">B.Tech Student in Cybersecurity • DRKIST Hyderabad</p>
+              
+              <div class="resume-summary">
+                <p>
+                  A concise single-page summary documenting current academic credentials, core technical skill targets (Python, C++, Linux, Git), 
+                  institutional affiliations, and digital contact channels.
+                </p>
+              </div>
+
+              <div class="resume-highlights">
+                <div class="r-item">
+                  <i class="fa-solid fa-check"></i> Verified Student Enrollment (DRKIST)
+                </div>
+                <div class="r-item">
+                  <i class="fa-solid fa-check"></i> Foundation Courses: Cybersecurity, Logic, Unix
+                </div>
+                <div class="r-item">
+                  <i class="fa-solid fa-check"></i> Transparent &amp; Honest 1st Year Portfolio
+                </div>
+              </div>
+
+              <div class="resume-actions">
+                <button type="button" class="cyber-btn cyber-btn-primary" id="preview-resume-btn">
+                  <span class="btn-bg"></span>
+                  <span class="btn-content">
+                    <i class="fa-solid fa-eye"></i> Preview Resume Dossier
+                  </span>
+                </button>
+                <button type="button" class="cyber-btn cyber-btn-secondary" id="download-resume-btn">
+                  <span class="btn-bg"></span>
+                  <span class="btn-content">
+                    <i class="fa-solid fa-download"></i> Download Resume (.PDF)
+                  </span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Resume Preview Mockup -->
+            <div class="resume-right">
+              <div class="document-preview-box">
+                <div class="doc-header">
+                  <span class="doc-title"><i class="fa-solid fa-file-lines"></i> CV_Harichandhan_Mattaparthi.pdf</span>
+                  <span class="doc-status">[READY]</span>
+                </div>
+                <div class="doc-body">
+                  <div class="doc-line header-mock"></div>
+                  <div class="doc-line sub-mock"></div>
+                  <div class="doc-divider"></div>
+                  <div class="doc-section-title">EDUCATION</div>
+                  <div class="doc-line"></div>
+                  <div class="doc-line half"></div>
+                  <div class="doc-section-title">CORE SKILLS</div>
+                  <div class="doc-tags-mock">
+                    <span></span><span></span><span></span><span></span>
+                  </div>
+                  <div class="doc-section-title">INTERESTS</div>
+                  <div class="doc-line"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume Modal -->
+    <div id="resume-modal" class="cyber-modal" aria-hidden="true" role="dialog" aria-labelledby="resume-modal-title">
+      <div class="modal-backdrop" id="modal-backdrop"></div>
+      <div class="modal-window cyber-card">
+        <div class="modal-header">
+          <div class="modal-title-wrap">
+            <i class="fa-solid fa-shield-halved"></i>
+            <h3 id="resume-modal-title">ACADEMIC PROFILE DOSSIER</h3>
+          </div>
+          <button class="modal-close" id="modal-close-btn" aria-label="Close modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <div class="modal-dossier-grid">
+            <div class="dossier-section">
+              <h4>// CANDIDATE PROFILE</h4>
+              <p><strong>Name:</strong> HARICHANDHAN MATTAPARTHI</p>
+              <p><strong>Role:</strong> B.Tech 1st Year Undergrad in Cybersecurity</p>
+              <p><strong>College:</strong> DRK Institute of Science and Technology</p>
+              <p><strong>Location:</strong> Hyderabad, Telangana, India</p>
+              <p><strong>Email:</strong> mharichandhan@gmail.com</p>
+            </div>
+            <div class="dossier-section">
+              <h4>// TECHNICAL PROFICIENCY (LEARNING)</h4>
+              <ul>
+                <li><strong>Python:</strong> Scripting, Automation Basics, Socket Fundamentals</li>
+                <li><strong>C++:</strong> Algorithms, Object-Oriented Principles, Memory Concepts</li>
+                <li><strong>Linux:</strong> Shell Navigation, Permissions, Bash Scripts</li>
+                <li><strong>Git/GitHub:</strong> Version Control, Commit Architecture</li>
+              </ul>
+            </div>
+          </div>
+          <div class="dossier-notice">
+            <i class="fa-solid fa-info-circle"></i>
+            <span>
+              <strong>Note:</strong> This dossier reflects Harichandhan's 1st year status. To upload a custom PDF resume, simply replace the file in the <code>assets/</code> folder.
+            </span>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="cyber-btn cyber-btn-secondary" id="modal-close-action">Close</button>
+          <button type="button" class="cyber-btn cyber-btn-primary" id="modal-download-action">
+            <i class="fa-solid fa-download"></i> Download Placeholder Dossier
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header">
+          <div class="section-tag">// 07. SECURE TRANSMISSION</div>
+          <h2 class="section-title">Get In Touch</h2>
+          <p class="section-subtitle">
+            Feel free to connect for academic discussions, cybersecurity collaborations, or mentoring opportunities.
+          </p>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="contact-grid">
+          
+          <!-- Contact Info Channels -->
+          <div class="contact-info-wrap">
+            
+            <div class="cyber-card contact-channel-card">
+              <div class="channel-icon mail-color">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div class="channel-content">
+                <div class="channel-label">DIRECT EMAIL</div>
+                <a href="mailto:mharichandhan@gmail.com" class="channel-link">mharichandhan@gmail.com</a>
+              </div>
+              <button class="copy-btn" id="copy-email-btn" title="Copy email address" aria-label="Copy email">
+                <i class="fa-regular fa-copy"></i>
+                <span class="copy-tooltip">Copy</span>
+              </button>
+            </div>
+
+            <div class="cyber-card contact-channel-card">
+              <div class="channel-icon github-color">
+                <i class="fa-brands fa-github"></i>
+              </div>
+              <div class="channel-content">
+                <div class="channel-label">GITHUB REPOSITORIES</div>
+                <a href="https://github.com/mharichandhan-cyber" target="_blank" rel="noopener noreferrer" class="channel-link">
+                  github.com/mharichandhan-cyber
+                </a>
+              </div>
+              <a href="https://github.com/mharichandhan-cyber" target="_blank" rel="noopener noreferrer" class="channel-ext" aria-label="Open GitHub">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+
+            <div class="cyber-card contact-channel-card">
+              <div class="channel-icon linkedin-color">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </div>
+              <div class="channel-content">
+                <div class="channel-label">LINKEDIN NETWORK</div>
+                <a href="https://www.linkedin.com/in/harichandhan-mattaparthi-3215373b6/" target="_blank" rel="noopener noreferrer" class="channel-link">
+                  harichandhan-mattaparthi
+                </a>
+              </div>
+              <a href="https://www.linkedin.com/in/harichandhan-mattaparthi-3215373b6/" target="_blank" rel="noopener noreferrer" class="channel-ext" aria-label="Open LinkedIn">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+
+            <div class="cyber-card contact-channel-card">
+              <div class="channel-icon instagram-color">
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+              <div class="channel-content">
+                <div class="channel-label">INSTAGRAM</div>
+                <a href="https://www.instagram.com/_hxri.chxndhxn_/" target="_blank" rel="noopener noreferrer" class="channel-link">
+                  @_hxri.chxndhxn_
+                </a>
+              </div>
+              <a href="https://www.instagram.com/_hxri.chxndhxn_/" target="_blank" rel="noopener noreferrer" class="channel-ext" aria-label="Open Instagram">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+
+            <div class="contact-location-pill cyber-card">
+              <i class="fa-solid fa-location-crosshairs"></i>
+              <span>DRK Institute of Science and Technology • Hyderabad, India</span>
+            </div>
+
+          </div>
+
+          <!-- Contact Form with Cyber Validation -->
+          <div class="contact-form-wrap">
+            <div class="cyber-card form-card">
+              <div class="form-header">
+                <span class="f-dot"></span>
+                <span class="form-title">// DISPATCH TRANSMISSION</span>
+              </div>
+              <form id="contact-form" class="cyber-form">
+                <div class="form-group">
+                  <label for="contact-name" class="form-label">
+                    <span class="prompt-sym">&gt;</span> ENTER SENDER NAME:
+                  </label>
+                  <input 
+                    type="text" 
+                    id="contact-name" 
+                    name="name" 
+                    class="form-input" 
+                    placeholder="e.g. Alex Mercer" 
+                    required
+                  >
+                </div>
+
+                <div class="form-group">
+                  <label for="contact-email" class="form-label">
+                    <span class="prompt-sym">&gt;</span> ENTER RETURN EMAIL:
+                  </label>
+                  <input 
+                    type="email" 
+                    id="contact-email" 
+                    name="email" 
+                    class="form-input" 
+                    placeholder="e.g. alex@securitylab.org" 
+                    required
+                  >
+                </div>
+
+                <div class="form-group">
+                  <label for="contact-subject" class="form-label">
+                    <span class="prompt-sym">&gt;</span> PACKET SUBJECT:
+                  </label>
+                  <input 
+                    type="text" 
+                    id="contact-subject" 
+                    name="subject" 
+                    class="form-input" 
+                    placeholder="e.g. Cybersecurity collaboration / Networking" 
+                    required
+                  >
+                </div>
+
+                <div class="form-group">
+                  <label for="contact-message" class="form-label">
+                    <span class="prompt-sym">&gt;</span> TRANSMISSION PAYLOAD:
+                  </label>
+                  <textarea 
+                    id="contact-message" 
+                    name="message" 
+                    rows="4" 
+                    class="form-input form-textarea" 
+                    placeholder="Type your message here..." 
+                    required
+                  ></textarea>
+                </div>
+
+                <button type="submit" class="cyber-btn cyber-btn-primary form-submit-btn">
+                  <span class="btn-bg"></span>
+                  <span class="btn-content">
+                    <i class="fa-solid fa-paper-plane"></i> Transmit Packet (Email)
+                  </span>
+                </button>
+
+                <div id="form-feedback" class="form-feedback" aria-live="polite"></div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Main Footer -->
+  <footer class="main-footer">
+    <div class="container footer-grid">
+      <div class="footer-col footer-brand">
+        <a href="#home" class="cyber-logo">
+          <span class="logo-bracket">[</span>
+          <span class="logo-symbol">&gt;_</span>
+          <span class="logo-name">HARICHANDHAN</span>
+          <span class="logo-ext">.sec</span>
+          <span class="logo-bracket">]</span>
+        </a>
+        <p class="footer-bio">
+          Exploring Cybersecurity. Building the Future. B.Tech 1st Year undergraduate passionate about ethical hacking, Linux, and digital security.
+        </p>
+        <div class="footer-badges">
+          <span class="f-badge"><i class="fa-solid fa-code"></i> HTML5 / CSS3 / Vanilla JS</span>
+          <span class="f-badge"><i class="fa-solid fa-shield-halved"></i> Ethical Hacker in Training</span>
+        </div>
+      </div>
+
+      <div class="footer-col footer-links">
+        <h4 class="footer-heading">// QUICK LINKS</h4>
+        <ul class="footer-nav">
+          <li><a href="#about">&gt; About Me</a></li>
+          <li><a href="#skills">&gt; Technical Skills</a></li>
+          <li><a href="#projects">&gt; Upcoming Projects</a></li>
+          <li><a href="#journey">&gt; Learning Journey</a></li>
+          <li><a href="#terminal-section">&gt; Interactive Terminal</a></li>
+          <li><a href="#resume">&gt; Resume Dossier</a></li>
+          <li><a href="#contact">&gt; Contact Channel</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-socials-col">
+        <h4 class="footer-heading">// CONNECT WITH ME</h4>
+        <p class="footer-text">Follow my journey across social and developer platforms:</p>
+        <div class="footer-social-links">
+          <a href="https://github.com/mharichandhan-cyber" target="_blank" rel="noopener noreferrer" class="f-social" title="GitHub">
+            <i class="fa-brands fa-github"></i> GitHub
+          </a>
+          <a href="https://www.linkedin.com/in/harichandhan-mattaparthi-3215373b6/" target="_blank" rel="noopener noreferrer" class="f-social" title="LinkedIn">
+            <i class="fa-brands fa-linkedin-in"></i> LinkedIn
+          </a>
+          <a href="mailto:mharichandhan@gmail.com" class="f-social" title="Email">
+            <i class="fa-solid fa-envelope"></i> Email
+          </a>
+          <a href="https://www.instagram.com/_hxri.chxndhxn_/" target="_blank" rel="noopener noreferrer" class="f-social" title="Instagram">
+            <i class="fa-brands fa-instagram"></i> Instagram
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sub-footer Bar -->
+    <div class="sub-footer">
+      <div class="container sub-footer-content">
+        <div class="copyright">
+          &copy; <span id="current-year">2026</span> <strong>Harichandhan Mattaparthi</strong>. All rights reserved.
+        </div>
+        <div class="system-status-indicator">
+          <span class="sys-dot"></span> SYSTEM INTEGRITY: VERIFIED // SEC_NODE_HYD
+        </div>
+        <div class="github-pages-note">
+          Optimized for GitHub Pages
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button id="back-to-top" class="back-to-top" aria-label="Back to top of page" title="Back to top">
+    <i class="fa-solid fa-chevron-up"></i>
+    <svg class="progress-ring" width="46" height="46">
+      <circle class="progress-ring-circle" stroke="#39FF14" stroke-width="2" fill="transparent" r="20" cx="23" cy="23"/>
+    </svg>
+  </button>
+
+  <!-- Core JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
+
